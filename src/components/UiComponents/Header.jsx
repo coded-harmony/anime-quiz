@@ -14,14 +14,16 @@ export default function Header() {
             <div className="absolute -z-10 inset-0 bg-transparent backdrop-blur-md "></div>
             {/* Main Header */}
             <div className="container py-[10px] flex items-center justify-between max-lg:p-4 max-sm:p-3">
-                <Image src={Logo} alt={'Image'} className="w-auto max-md:h-10" />
+                <a href="/">
+                    <Image src={Logo} alt={'Image'} className="w-auto max-md:h-10" />
+                </a>
 
                 {/* Desktop Menu */}
                 <ul className={`flex items-center gap-14 ${menuOpen ? 'block' : 'hidden'} md:flex lg:items-center`}>
-                    <li><a className="text-[16px] font-semibold" href="#">Home</a></li>
-                    <li><a className="text-[16px] font-semibold" href="#">Features</a></li>
-                    <li><a className="text-[16px] font-semibold" href="#">Testimonials</a></li>
-                    <li><a className="text-[16px] font-semibold" href="#">Download</a></li>
+                    <li><a className="text-[16px] font-semibold" href="/">Home</a></li>
+                    <li><a className="text-[16px] font-semibold" href="#feature">Features</a></li>
+                    <li><a className="text-[16px] font-semibold" href="#testimonials">Testimonials</a></li>
+                    <li><a className="text-[16px] font-semibold" href="#download">Download</a></li>
                 </ul>
 
                 {/* Hamburger Menu for mobile */}

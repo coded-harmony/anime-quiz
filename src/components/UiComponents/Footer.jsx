@@ -6,7 +6,9 @@ const Footer = () => {
         <footer className="pt-20 pb-8 text-left bg-[#17183E] max-sm:pt-8">
             <div className="max-w-6xl mx-auto px-4">
                 <div className="flex items-center gap-9 max-sm:flex-col">
-                    <Image className='max-sm:mx-auto' src={Logo} alt="Startify Logo" />
+                    <a href="/">
+                        <Image className='max-sm:mx-auto' src={Logo} alt="Startify Logo" />
+                    </a>
                     <div className="flex items-center flex-wrap gap-20 text-[16px] font-semibold max-sm:flex-col max-sm:items-center max-md:gap-8">
                         <a href="#">Home</a>
                         <a href="#">Features</a>

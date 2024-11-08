@@ -36,7 +36,7 @@ export default function Features() {
   ];
 
   return (
-    <main className='mb-[200px] max-sm:mb-32'>
+    <main className='mb-[200px] max-sm:mb-32' id="feature"> 
       <div className="container mx-auto ">
         <h2 className="text-center mb-24 max-sm:mb-16">Key Features</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 gap-y-[50px] max-sm:gap-10">

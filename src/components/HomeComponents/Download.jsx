@@ -7,7 +7,7 @@ export default function Download() {
 
 
   return (
-    <main className='mb-[100px]'>
+    <main className='mb-[100px]' id='download'>
       <h2 className="text-center mb-24 max-sm:mb-16"> Download App</h2>
       <div className="bg-download-bg max-sm:py-10">
         <div className="container grid grid-cols-[55%_1fr] items-center gap-20 pt-3 max-sm:grid-cols-1 max-sm:text-center">

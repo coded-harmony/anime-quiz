@@ -59,7 +59,7 @@ const Testimonials = () => {
     };
 
     return (
-        <main className='mb-[200PX] max-sm:mb-32'>
+        <main className='mb-[200PX] max-sm:mb-32' id='testimonials'>
             <div className="container max-sm:text-center">
                 <h2 className="mb-24 text-center max-sm:mb-16 ">Testimonials</h2>
                 <Slider {...settings}>
